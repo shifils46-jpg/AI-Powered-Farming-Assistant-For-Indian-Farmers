@@ -198,8 +198,6 @@ if page == "🤖 Yield Prediction":
         pred = model.predict(user_input)[0]
         st.success(f"🌾 *Predicted Yield: {pred:,.2f} tonnes*")
 
-        rmse = np.sqrt(mean_squared_error(y_test, model.predict(X_test)))
-        st.info(f"Model RMSE: {rmse:,.2f}")
 
 # -----------------------------------------------------------
 # CROP RECOMMENDATION SYSTEM
