@@ -44,7 +44,7 @@ h1, h2, h3 {
 /* BUTTON GREEN THEME */
 .stButton>button {
     background-color: #2e7d32;
-    color: white;
+    color: BLACK;
     border-radius: 8px;
     padding: 10px 20px;
 }
