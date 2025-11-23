@@ -88,7 +88,7 @@ if page == "🏠 Home":
     )
 
     st.markdown("""
-    ### 🇮🇳 Empowering Indian Farmers with AI  
+    ###  Empowering Indian Farmers with AI  
     This platform provides:
     - 📊 *Interactive Agriculture Analytics Dashboard*  
     - 🤖 *AI-Powered Yield Prediction*  
