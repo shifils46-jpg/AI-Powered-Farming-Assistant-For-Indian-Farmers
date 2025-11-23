@@ -16,12 +16,12 @@ st.markdown("""
 <style>
 /* MAIN BACKGROUND */
 .stApp {
-    background-color: #000000;  /* ← change to any color */
+    background-color: #ffffff;  /* ← change to any color */
 }
 
 /* CONTENT AREA BACKGROUND */
 .block-container {
-    background-color: #000000 !important;
+    background-color: #ffffff !important;
 }
 
 /* SIDEBAR */
