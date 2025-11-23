@@ -15,8 +15,13 @@ st.set_page_config(page_title="AI For Indian Farmers", layout="wide")
 st.markdown("""
 <style>
 /* MAIN BACKGROUND */
-body {
-    background-color: #0000ff;
+.stApp {
+    background-color: #f0f7ff;  /* ← change to any color */
+}
+
+/* CONTENT AREA BACKGROUND */
+.block-container {
+    background-color: #f0f7ff !important;
 }
 
 /* SIDEBAR */
@@ -24,27 +29,15 @@ body {
     background-color: #e8f5e9;
 }
 
-/* HEADER */
+/* HEADERS */
 h1, h2, h3 {
     color: #1b5e20 !important;
-}
-
-/* METRICS */
-.metric {
-    background-color: #f1f8e9 !important;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* SELECTBOX LABEL */
-.css-1pahdxg-control {
-    border: 2px solid #2e7d32 !important;
 }
 
 /* BUTTON GREEN THEME */
 .stButton>button {
     background-color: #2e7d32;
-    color: BLACK;
+    color: white;
     border-radius: 8px;
     padding: 10px 20px;
 }
